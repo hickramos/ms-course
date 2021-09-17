@@ -1,4 +1,4 @@
-package com.devsuperior.hrpayroll.config;
+package com.devsuperior.hrpayroll.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
