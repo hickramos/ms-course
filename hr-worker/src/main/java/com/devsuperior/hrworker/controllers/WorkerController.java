@@ -21,7 +21,7 @@ import java.util.List;
 @RequestMapping("/workers")
 public class WorkerController {
 
-    private static Logger logger = LoggerFactory.getLogger(WorkerController.class);
+    private static final Logger logger = LoggerFactory.getLogger(WorkerController.class);
 
     @Value("${test.config}")
     private String testConfig;
